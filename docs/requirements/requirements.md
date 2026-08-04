@@ -188,19 +188,3 @@ Toda reserva deberá estar asociada a un cliente, una habitación, una fecha de 
 ### RN-11. Fechas válidas de estancia
 
 La fecha de salida de una reserva deberá ser posterior a la fecha de entrada.
-
-### RN-12. Generación de tareas de limpieza
-
-Una tarea de limpieza deberá generarse cuando una habitación pase al estado "en limpieza" después de un check-out o cuando exista una incidencia que requiera limpieza durante una estancia.
-
-### RN-13. Finalización de tareas de limpieza
-
-Una habitación no podrá volver al estado "libre" hasta que una persona del equipo de limpieza marque la tarea como completada.
-
-### RN-14. Administración del sistema
-
-El usuario con rol de administración será el único autorizado para gestionar usuarios, habitaciones y la configuración general del sistema.
-
-### RN-15. Acceso individual al sistema
-
-Cada trabajador deberá utilizar su propio usuario, evitando el uso de cuentas compartidas entre empleados.
